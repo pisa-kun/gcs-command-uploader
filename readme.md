@@ -1,11 +1,12 @@
 # ステップ 1: プロジェクトのセットアップ
+```
 mkdir gcs-upload
 cd gcs-upload
 npm init -y
 npm install @google-cloud/storage typescript ts-node @types/node
 npx tsc --init
 npm install dotenv
-
+```
 
 .envを作って
 ```
